@@ -17,7 +17,7 @@ img {
     display: inline-block;
     width: 80px;
     height: 100px;
-    margin: 5px;
+    /* margin: 5px; */
     cursor: pointer;
     position: relative;
     perspective: 800px;
