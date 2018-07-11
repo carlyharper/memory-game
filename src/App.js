@@ -3,13 +3,13 @@ import './App.css';
 import MemoryCard from './MemoryCard.js';
 
 let generateDeck = () => {
-  let symbols = ['£', '∆', 'ℬ', '℥', '●', '$', '⍼', '⚡︎'];
+  let BeazImgs = ['IMG_1318.png', 'IMG_4184.png', 'IMG_4934.png', 'IMG_5232.png', 'IMG_5357.png', 'IMG_6165.png', 'IMG_5968.png', 'IMG_5730.png'];
   let deck = [];
 
   for (let i = 0; i < 16; i++) {
     deck.push({
       isFlipped: false,
-      symbol: symbols[i%8]
+      symbol: BeazImgs[i%8]
     });
   }
   shuffle(deck);
@@ -95,8 +95,8 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Memory Game</h1>
-          <h2 className="App-subtitle">Match cards to win</h2>
+          <h1 className="App-title">BEAZLEY GAME</h1>
+          <h2 className="App-subtitle">Match pics of The Beaz to win</h2>
         </header>
         <div>
           {cardsJSX.slice(0,4)}
