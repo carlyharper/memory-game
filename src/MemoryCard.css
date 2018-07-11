@@ -9,14 +9,14 @@
 }
 
 img {
-    width: 80px;
-    padding: 7px;
+    width: 70px;
+    padding: 4px;
 }
 
 .MemoryCard {
     display: inline-block;
-    width: 100px;
-    height: 120px;
+    width: 80px;
+    height: 100px;
     margin: 5px;
     cursor: pointer;
     position: relative;
